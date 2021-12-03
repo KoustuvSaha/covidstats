@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    background-image: url('stock-covid19-virus.jpg');
+    background-repeat:repeat-y;
+    background-size: cover;
+    
+}
+.mainh{
+    text-decoration: underline ;
+    text-decoration-style: double;
+    text-decoration-thickness: 0.75px;
+    
+}
+.container{
+    
+    opacity: 100%;
+    background: rgb(0, 0, 0);
+    width: 100%;
+      
+    position: relative;
+    margin: 0 auto;
+
+}
+.container .content {
+    position: absolute; 
+    top: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.562); 
+    padding: 0px; 
+  }
+
+.content{
+    zoom: 200%;
+    width: 100%;
+    color: white;
+    font-family: 'Bahnschrift', Courier, monospace;
+}
+
+table, th, td {
+    font-size: smaller;
+    font-family: 'Monaco', Courier, monospace;
+    padding: 5px;
+    border:1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+table{
+    
+    width: 100%;
+}
