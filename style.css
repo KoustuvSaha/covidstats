@@ -34,6 +34,7 @@ body{
     width: 100%;
     color: white;
     font-family: 'Bahnschrift', Courier, monospace;
+    padding: 0 8%;
 }
 
 table, th, td {
