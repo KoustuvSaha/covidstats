@@ -1,3 +1,13 @@
+/*always do the next 4 lines*/
+/*
+*
+{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+*/
+
 body{
     margin: 0%;
     background-image: url('stock-covid19-virus.jpg');
@@ -5,13 +15,17 @@ body{
     background-size: cover;
     
 }
+h1 {
+    margin: 0 20px;
+    padding-top: 20px;
+}
 .mainh{
-    text-decoration: underline ;
+    
     text-decoration-style: double;
     text-decoration-thickness: 0.75px;
     
 }
-.container{
+/* .container{
     
     opacity: 100%;
     background: rgb(0, 0, 0);
@@ -20,20 +34,15 @@ body{
     position: relative;
     margin: 0 auto;
 
-}
-.container .content {
-    position: absolute; 
-    top: 0; 
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.562); 
-   
-  }
+}*/
 
 .content{
     zoom: 200%;
-    width: 100%;
+    /*width: 100%;*/
     color: white;
     font-family: 'Bahnschrift', Courier, monospace;
+    background: rgba(0, 0, 0, 0.562);
+    /*background-color: rgba(rgba(0, 0, 0, 0.562));*/
     padding: 0 8%;
 }
 
